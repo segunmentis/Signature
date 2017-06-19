@@ -1,0 +1,11 @@
+function w = sig(data,num)
+datalength = length(data);
+% lists = [];
+% for i=1:datalength
+%     val = data(i,num);
+%     lists(end+1) = val;
+% end
+maxdata = max(lists);
+mindata = min(lists);
+w = maxdata-mindata;
+end
