@@ -77,14 +77,7 @@ for j=1:datalength
         colval = colval+1;
         
     end
-   % md = validate(tr,ts);
-   
-   %validate(tr,ts);
-    %dc = makeDecision(md);
    rowval = rowval+1;
 end
-
-%md = size(ts);
-%md = verification(mydata)
 
 
